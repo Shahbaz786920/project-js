@@ -11,21 +11,21 @@
 <body>
   Hello world
   <script>
-    let number =prompt("Enter any number");
+    let number = prompt("Enter any number");
 
-//check the number
-if(number <0){
-    console.log('error please enter any positive number and try again');
-}else if(number ===0){
-    console.log("the cube of 0 is 0");
-    
-}else{
-    let cube =1
-    for(i=1;i<=number;i++){
-        cube = i*i*i;
+    //check the number
+    if (number < 0) {
+      console.log('error please enter any positive number and try again');
+    } else if (number === 0) {
+      console.log("the cube of 0 is 0");
+
+    } else {
+      let cube = 1
+      for (i = 1; i <= number; i++) {
+        cube = i * i * i;
+      }
+      console.log('the cube of', number, 'is', cube);
     }
-    console.log('the cube of', number,'is',cube);
-}
   </script>
 
   <!--

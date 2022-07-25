@@ -12,18 +12,18 @@
   Hello world
   <script>
     let number = prompt("Enter the positive number");
-if (number < 0) {
-  console.log('error please use any positive number and try again');
-} else if (number === 0) {
-  console.log("the factorial of 0 is 1");
+    if (number < 0) {
+      console.log('error please use any positive number and try again');
+    } else if (number === 0) {
+      console.log("the factorial of 0 is 1");
 
-} else {
-  let fact = 1
-  for (i = 1; i <= number; i++) {
-    fact *= i;
-  }
-  console.log('the factorial of', number, 'is', fact);
-}
+    } else {
+      let fact = 1
+      for (i = 1; i <= number; i++) {
+        fact *= i;
+      }
+      console.log('the factorial of', number, 'is', fact);
+    }
 
   </script>
 
